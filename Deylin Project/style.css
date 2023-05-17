@@ -1,0 +1,118 @@
+body{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#LandingPage{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/PHOTOS/DSC_1938.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50%;
+}
+.carousel-item a {
+    position: relative;
+    display: block;
+  }
+  
+  .carousel-item a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .carousel-item a:hover:before {
+    opacity: 1;
+  }
+  .carousel-item .overlay-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 19, 19);
+    font-size: 24px;
+  }
+  
+  .carousel-item:hover .overlay-text {
+    display: block;
+  }
+  .carousel-item:hover .overlay-text a {
+    margin: 10px;
+  }
+  #BusrtLandingPage{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/PHOTOS/Burst\ Bottles\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+  }
+  #CannedBanner{
+background-color: purple;
+  }
+  #KarigenLandingPage{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/PHOTOS/IMG_9200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+  }
+
+  .hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+}
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .fade-in-animation {
+    opacity: 1;
+  }
+  .fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .fixed-button button {
+    background-color: #ffc400;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .fixed-button button:hover {
+    background-color: #ffdf4e;
+  }
+  .input-screen{
+    width: 50%;
+  }
+  
+  
